@@ -1,4 +1,4 @@
-#My music library
+### My music library
 
 ## Getting started
 
@@ -6,7 +6,8 @@ In the project directory run:
 
 ### `npm install`
 
-This install the neccesary node modules required to run the app.
+This installs the neccesary node modules required to run the app.
+
 
 
 ## Running the project:
