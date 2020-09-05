@@ -1,0 +1,18 @@
+export const seedSongs = [
+  { artist: 'Nothing Else Matters', songName: 'Metallica', genreId: 'rock' },
+  { artist: 'The Struggle Within', songName: 'Metallica', genreId: 'rock' },
+  { artist: 'Of Wolf and Man', songName: 'Metallica', genreId: 'rock' },
+  { artist: 'Guns N\' Roses', songName: 'Sweet Child O\' Mine', genreId: 'rock' },
+  { artist: 'Guns N\' Roses', songName: 'November Rain', genreId: 'rock' },
+  { artist: 'Louis Armstrong', songName: 'What a Wonderful World', genreId: 'jazz' },
+  { artist: 'Louis Armstrong', songName: 'St. Louis Blues', genreId: 'jazz' },
+  { artist: 'Louis Armstrong', songName: 'On the Sunny Side of the Street', genreId: 'jazz' },
+  { artist: 'Miles Davis', songName: 'Milestones', genreId: 'jazz' },
+  { artist: 'Miles Davis', songName: 'Boplicity', genreId: 'jazz' },
+  { artist: 'Miles Davis', songName: 'My Funny Valentine', genreId: 'jazz' },
+  { artist: 'Ornette Coleman', songName: 'Lonely Woman', genreId: 'jazz' },
+  { artist: 'Eminem', songName: 'The Real Slim Shady', genreId: 'rap' },
+  { artist: 'Eminem', songName: 'Lose Yourself', genreId: 'rap' },
+  { artist: 'Dr. Dre', songName: 'Let Me Ride', genreId: 'rap' },
+  { artist: 'Dr. Dre', songName: 'Forgot About Dre', genreId: 'rap' },
+];
