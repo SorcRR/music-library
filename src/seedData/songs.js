@@ -15,4 +15,6 @@ export const seedSongs = [
   { artist: 'Eminem', songName: 'Lose Yourself', genreId: 'rap' },
   { artist: 'Dr. Dre', songName: 'Let Me Ride', genreId: 'rap' },
   { artist: 'Dr. Dre', songName: 'Forgot About Dre', genreId: 'rap' },
+  { artist: 'Hank Williams', songName: 'Cold Cold Heart', genreId: 'country' },
+  { artist: 'Hank Williams', songName: 'Lost Highway', genreId: 'country' },
 ];

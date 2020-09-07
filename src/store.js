@@ -1,11 +1,11 @@
 import { applyMiddleware, combineReducers, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import { reducer as genresReducer } from 'ducks/genres';
-// import { reducer as musicReducer } from 'ducks/music';
+import { reducer as songsReducer } from 'ducks/songs';
 
 const rootReducer = combineReducers({
   genres: genresReducer,
-  // music: musicReducer,
+  songs: songsReducer,
 });
 
 export const store = createStore(

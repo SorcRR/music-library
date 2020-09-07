@@ -1,0 +1,25 @@
+.label {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.inputWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 20px;
+  text-align: left;
+  width: 306px;
+}
+
+.inputStyle {
+  width: 200px;
+}
+
+.fieldWrapper {
+  display: block;
+}
+
+.fieldError {
+  font-size: 12px;
+  color: red;
+}

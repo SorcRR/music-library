@@ -77,7 +77,7 @@ const completeAddingGenres = () => ({
   type: COMPLETE_ADDING_GENRES,
 })
 
-export const getAllGenres = params => (dispatch) => {
+export const getAllGenres = () => (dispatch) => {
   dispatch(startLoadingGenres())
   return getGenres()
     .then((result) => {
@@ -90,9 +90,9 @@ export const getAllGenres = params => (dispatch) => {
     })
 }
 
-export const addNewGenre = params => (dispatch) => {
+export const addNewGenre = (genreName, genreId) => (dispatch) => {
   dispatch(startAddingGenres())
-  return addGenres()
+  return addGenres(genreName, genreId)
     .then(() => {
       dispatch(completeAddingGenres())
     })
